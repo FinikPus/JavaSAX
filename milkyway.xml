@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<galaxy>
+  <namegalaxy>Млечный путь</namegalaxy>
+  <agegalaxy>12 млрд. лет</agegalaxy>
+  <typegalaxy>Спиральная галактика с перемычкой</typegalaxy>
+  <planetsystem>
+    <nameplanetsystem>Солнечная система</nameplanetsystem>
+    <planet>
+      <nameplanet>Земля</nameplanet>
+      <ageplanet>4,543 млрд. лет</ageplanet>
+      <typeplanet>Планета земной группы</typeplanet>
+      <sputnik>
+        <namesputnik>Луна</namesputnik>
+        <agesputnik>4,53 млрд. лет</agesputnik>
+      </sputnik>
+    </planet>
+    <planet>
+      <nameplanet>Марс</nameplanet>
+      <ageplanet>4,603 млрд. лет</ageplanet>
+      <typeplanet>Планета земной группы</typeplanet>
+      <sputnik>
+        <namesputnik>Фобос</namesputnik>
+        <agesputnik>4,503 млрд. лет</agesputnik>
+      </sputnik>
+      <sputnik>
+        <namesputnik>Деймос</namesputnik>
+        <agesputnik>4,503 млрд. лет</agesputnik>
+      </sputnik>
+    </planet>
+    <star>
+      <namestar>Солнце</namestar>
+      <classstar>Желтый карлик</classstar>
+      <agestar>4,603 млрд. лет</agestar>
+    </star>
+    <comet>
+      <namecomet>Галлея</namecomet>
+      <prefix>1P</prefix>
+    </comet>
+  </planetsystem>
+  <planetsystem>
+    <nameplanetsystem>Альфа Центавра</nameplanetsystem>
+    <planet>
+      <nameplanet>Альфа Центавра B b</nameplanet>
+      <ageplanet>6 млрд. лет</ageplanet>
+      <typeplanet>Экзопланета</typeplanet>
+    </planet>
+    <planet>
+      <nameplanet>Альфа Центавра C b</nameplanet>
+      <ageplanet>6 млрд. лет</ageplanet>
+      <typeplanet>Экзопланета</typeplanet>
+    </planet>
+    <star>
+      <namestar>Альфа Центавра</namestar>
+      <classstar>Желтый карлик</classstar>
+      <agestar>6 млрд. лет</agestar>
+    </star>
+    <star>
+      <namestar>Альфа Центавра B</namestar>
+      <classstar>Оранжевый карлик</classstar>
+      <agestar>6 млрд. лет</agestar>
+    </star>
+    <star>
+      <namestar>Проксима Центавра</namestar>
+      <classstar>Красный карлик</classstar>
+      <agestar>6 млрд. лет</agestar>
+    </star>
+  </planetsystem>
+</galaxy>

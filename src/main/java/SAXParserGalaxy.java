@@ -12,7 +12,7 @@ import java.util.Stack;
 
 public class SAXParserExample extends DefaultHandler {
 
-    private ArrayList bookList = new ArrayList();
+    private ArrayList galaxyList = new ArrayList();
 
     //Каждый читаемый xml элемент помещается в стек
     private Stack elementStack = new Stack();
@@ -37,7 +37,7 @@ public class SAXParserExample extends DefaultHandler {
         this.elementStack.pop();
         if (qName.equalsIgnoreCase("BOOK")) {
             Book object = (Book) this.objectStack.pop();
-            this.bookList.add(object);
+            this.galaxyList.add(object);
         }
         System.out.println("End Element :" + qName);
 
@@ -75,7 +75,7 @@ public class SAXParserExample extends DefaultHandler {
     }
 
     public ArrayList getBookList() {
-        return bookList;
+        return galaxyList;
     }
 }
 
